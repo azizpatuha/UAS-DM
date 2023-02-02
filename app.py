@@ -31,7 +31,7 @@ def main():
     
     if st.button("PREDIKSI"):
         result = prediction(age, sex, bmi, children, smoker)
-    st.success('Hasil Prediksi - {}'.format(result))
+    st.success('Hasil Prediksi {}'.format(result))
     
 if __name__=='__main__':
     main()
