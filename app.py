@@ -16,7 +16,7 @@ def prediction(age, sex, bmi, children, smoker):
     return prediction
 
 def main():
-    st.title("Aplikasi Prediksi Asuransi")
+    st.title("Aplikasi Prediksi Asuransi dengan Algoritma Linier Regression")
     st.markdown('Oleh : Malik Abdul Aziz (2019230026) | Universitas Darma Persada | UAS Datamining')
     st.write('\n')
     st.markdown('Silakan isi form berikut terlebih dahulu :')
